@@ -2,12 +2,18 @@ import "./Menu.css";
 import Header from "./Header";
 import React from "react";
 import Submenu from "./Submenu";
+import {
+  PiTrademarkLight,
+  PiGiftLight,
+  PiShootingStarThin,
+  PiCoffeeDuotone,
+} from "react-icons/pi";
 
 const Menu = () => {
   return (
     <div className="Menu">
       <Header />
-      <nav className="navbar navbar-expand-md bg-body-tertiary">
+      <nav className="navbar navbar-expand-md">
         <div className="container-fluid">
           <button
             className="navbar-toggler"
@@ -28,20 +34,33 @@ const Menu = () => {
                   data-bs-toggle="dropdown"
                   aria-expanded="false"
                 >
-                  Dropdown link
+                  دسته بندی محصولات
                 </button>
                 <Submenu />
               </li>
               <li class="nav-item">
                 <button class="nav-link active" aria-current="page">
-                  Home
+                  <PiTrademarkLight className="mx-1" />
+                  برندها
                 </button>
               </li>
               <li class="nav-item">
-                <button class="nav-link">Features</button>
+                <button class="nav-link">
+                  <PiGiftLight className="mx-1" />
+                  کارت هدیه
+                </button>
               </li>
               <li class="nav-item">
-                <button class="nav-link">Pricing</button>
+                <button class="nav-link">
+                  <PiCoffeeDuotone className="mx-1" />
+                  وبلاگ
+                </button>
+              </li>
+              <li class="nav-item">
+                <button class="nav-link bold-txt">
+                  <PiShootingStarThin className="mx-1" />
+                  فروش ویژه
+                </button>
               </li>
             </ul>
           </div>
