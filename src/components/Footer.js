@@ -1,9 +1,12 @@
 import React from "react";
 import "./Footer.css";
+import Contact from "./Contact";
 
 const Footer = () => {
   return (
     <div className="Footer">
+      <Contact />
+
       <div className="row">
         <div className="col">col 1</div>
         <div className="col">col 2</div>
