@@ -11,5 +11,6 @@
   --sec-font: "Noto Naskh Arabic", serif;
 }
 body {
+  direction: rtl;
   color: var(--pri-txt-color);
 }
