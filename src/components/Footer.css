@@ -1,0 +1,14 @@
+.Footer {
+  padding-top: 10px;
+  background-color: var(--sep-bg-color);
+  height: 20vh;
+  width: 100vw;
+  position: absolute;
+  bottom: 0;
+}
+.Footer .credits {
+  position: absolute;
+  bottom: 0;
+  width: 100vw;
+  text-align: center;
+}

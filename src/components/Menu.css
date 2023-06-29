@@ -1,0 +1,11 @@
+.Menu {
+  padding-top: 50px;
+}
+.Menu header {
+  display: flex;
+}
+.Menu .menu-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
