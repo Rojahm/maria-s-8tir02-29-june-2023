@@ -1,12 +1,13 @@
 :root {
   --pri-bg-color: #0f0f11;
   --pri-txt-color: #0f0f11;
+  --bold-txt-color: #ef4e23;
   --sec-bg-color: #d7d1c5;
   --ter-bg-color: #a2b1a4;
   --qua-bg-color: #c99212;
   --qui-bg-color: #bb6125;
-  --sen-bg-color: #686636;
-  --sep-bg-color: #85764f;
+  --sen-bg-color: #25552f;
+  --sep-bg-color: #54854f;
   --pri-font: "Lalezar", cursive;
   --sec-font: "Noto Naskh Arabic", serif;
 }

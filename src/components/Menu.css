@@ -1,8 +1,13 @@
 .Menu {
   padding-top: 50px;
 }
+
 .Menu header {
   display: flex;
+}
+.Menu .navbar ul li button,
+.Menu .navbar .active {
+  color: var(--sec-bg-color);
 }
 .Menu .menu-container {
   display: flex;

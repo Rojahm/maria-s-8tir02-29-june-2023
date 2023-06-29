@@ -1,4 +1,14 @@
 .Header {
-  padding-top: 10px;
-  color: var(--pri-text-color);
+}
+.Header .search {
+  align-self: center;
+}
+.Header .search input {
+  cursor: pointer;
+}
+.Header .dashboard {
+  align-self: center;
+}
+.Header .btn {
+  color: antiquewhite;
 }

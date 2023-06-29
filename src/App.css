@@ -1,25 +1,15 @@
 .App {
   text-align: center;
-  background-color: var(--pri-bg-color);
+  background-color: #0c1b02;
   color: var(--sec-bg-color);
+  font-family: var(--sec-font);
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.App .bold-txt {
+  color: var(--bold-txt-color) !important;
 }
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
-}
-
-.App-header {
-  /* min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center; */
-  font-size: calc(10px + 2vmin);
 }
