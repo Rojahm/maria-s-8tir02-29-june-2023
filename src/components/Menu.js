@@ -13,7 +13,7 @@ const Menu = () => {
   return (
     <div className="Menu">
       <Header />
-      <nav className="navbar navbar-expand-md">
+      <nav className="navbar navbar-expand-md" data-bs-theme="dark">
         <div className="container-fluid">
           <button
             className="navbar-toggler"
