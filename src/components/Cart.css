@@ -1,0 +1,27 @@
+.Cart {
+  direction: rtl;
+}
+.Cart .cartList {
+  list-style: none;
+  text-align: right;
+  padding-right: 2px;
+  padding-left: 2px;
+}
+.Cart .offcanvas-title {
+  color: #bb6125;
+}
+.Cart .CartItem .Item {
+  display: flex;
+  margin-bottom: 15px;
+  padding-bottom: 5px;
+  border-bottom: 2px solid rgba(187, 97, 37, 0.2);
+}
+.Cart .CartItem .Item div {
+  align-self: center;
+}
+.Cart .CartItem .Item .ItemNumber {
+  display: flex;
+}
+.Cart .CartItem .Item .ItemNumber div {
+  padding: 5px;
+}

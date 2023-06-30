@@ -1,4 +1,6 @@
 import React from "react";
+import "./Cart.css";
+import CartItem from "./CartItem";
 
 const Cart = () => {
   return (
@@ -22,8 +24,11 @@ const Cart = () => {
         </div>
         <div class="offcanvas-body">
           <div>
-            Some text as placeholder. In real life you can have the elements you
-            have chosen. Like, text, images, lists, etc.
+            <ul className="cartList">
+              <CartItem />
+              <CartItem />
+              <CartItem />
+            </ul>
           </div>
         </div>
       </div>
