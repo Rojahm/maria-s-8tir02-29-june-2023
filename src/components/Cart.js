@@ -30,6 +30,7 @@ const Cart = () => {
               <CartItem />
             </ul>
           </div>
+          <div>جمع</div>
         </div>
       </div>
     </div>
