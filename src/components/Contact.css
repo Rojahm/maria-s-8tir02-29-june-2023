@@ -1,4 +1,10 @@
 .Contact {
-  background-color: #99b08c;
-  color: antiquewhite;
+  background-color: var(--sen-bg-color);
+  color: var(--pri-bg-color);
+  font-weight: 900;
+  font-family: var(--pri-font);
+  padding-top: 10px;
+}
+.Contact .row {
+  flex-direction: row-reverse;
 }

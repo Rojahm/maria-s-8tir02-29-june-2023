@@ -1,14 +1,33 @@
 .Footer {
-  padding-top: 10px;
-  background-color: #3c6653;
-  height: 20vh;
-  width: 100vw;
-  position: absolute;
   bottom: 0;
+  background-color: var(--pri-bg-color);
+  color: var(--pri-bg-color);
 }
 .Footer .credits {
-  position: absolute;
+  position: relative;
   bottom: 0;
   width: 100vw;
   text-align: center;
+}
+.Footer .credits p {
+  font-size: 12px;
+  margin-bottom: 0px;
+  color: var(--sec-bg-color);
+}
+.Footer .footer-content {
+  background-color: var(--sec-bg-color);
+  margin: 0px 44px 20px 44px;
+  border-radius: 45px 45px 0px 0px;
+  opacity: 0.8;
+  padding-top: 10px;
+  text-align: right;
+  flex-direction: row-reverse;
+}
+.Footer .footer-content ul {
+  list-style: none;
+}
+.Footer .footer-content .footer-title {
+  font-family: var(--sec-font);
+  font-size: 16px;
+  font-weight: 900;
 }
