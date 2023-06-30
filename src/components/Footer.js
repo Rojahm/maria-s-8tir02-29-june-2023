@@ -35,8 +35,12 @@ const Footer = () => {
           </p>
         </div>
         <div className="col">
-          <img src={logo} alt="black logo" style={{ width: 100 }} />
-          <h5 className="footer-title">اطلاعات تماس</h5>
+          <img
+            src={logo}
+            alt="black logo"
+            style={{ width: 100, display: "block", margin: " 0 auto" }}
+          />
+          <h5 className="footer-title mt-4">اطلاعات تماس</h5>
           <ul>
             <li>
               <b>بخش اداری:</b>
