@@ -1,0 +1,7 @@
+.Submenu {
+}
+.Submenu .dropdown-menu {
+  flex-direction: column-reverse;
+  /* width: 80vw; */
+  text-align: right;
+}
