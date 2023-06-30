@@ -1,6 +1,8 @@
 .Cart {
   direction: rtl;
 }
+.Cart .offcanvas {
+}
 .Cart .cartList {
   list-style: none;
   text-align: right;
@@ -8,7 +10,8 @@
   padding-left: 2px;
 }
 .Cart .offcanvas-title {
-  color: #bb6125;
+  color: var(--bold-txt-color);
+  font-family: var(--pri-font);
 }
 .Cart .CartItem .Item {
   display: flex;
