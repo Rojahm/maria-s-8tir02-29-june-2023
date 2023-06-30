@@ -1,7 +1,7 @@
 .Header {
 }
 .Header .row {
-  flex-direction: row-reverse;
+  /* flex-direction: row-reverse; */
 }
 .Header .search {
   align-self: center;

@@ -1,11 +1,10 @@
 .Menu {
   padding-top: 50px;
+  direction: rtl;
 }
 .Menu .navbar-nav {
-  flex-direction: row-reverse;
 }
 .Menu .navbar-collapse {
-  justify-content: end;
 }
 .Menu header {
   display: flex;
